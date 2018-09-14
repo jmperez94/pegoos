@@ -1,0 +1,41 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="st_alertas" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/primary_light</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="st_primaryText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="st_general" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/primary_light</item>
+    </style>
+
+    <style name="st_button" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="st_image_button" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background"></item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="st_row" parent="@android:style/TextAppearance.Medium">
+        <item name="android:padding">10sp</item>    </style>
+</resources>
