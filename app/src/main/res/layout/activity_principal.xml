@@ -64,10 +64,10 @@
                 android:id="@+id/winner"
                 style="@style/st_primaryText"
                 android:layout_width="match_parent"
-                android:gravity="center"
                 android:layout_height="0dp"
                 android:layout_marginTop="30dp"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center"/>
 
         </android.support.constraint.ConstraintLayout>
 
