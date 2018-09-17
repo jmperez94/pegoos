@@ -71,7 +71,7 @@ public class UserDaoImpl extends SQLiteOpenHelper implements UserDao {
 
     public int initDatabase(SQLiteDatabase db) {
         ArrayList<User> usersTest = new ArrayList<>();
-        usersTest.add(new User("Juan"));
+        usersTest.add(new User("Paco"));
         usersTest.add(new User("Pedro"));
         usersTest.add(new User("Josefa"));
         usersTest.add(new User("Martina"));
